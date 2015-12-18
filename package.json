@@ -1,11 +1,16 @@
 {
   "name": "fodash",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "A thin wrapper around lodash that allows its functions to be invoked as virtual methods using the proposed function bind syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FullR/fodash"
+  },
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "*"
   },
   "devDependencies": {
     "chai": "^3.4.1",
