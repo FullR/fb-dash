@@ -1,16 +1,16 @@
 {
-  "name": "fodash",
-  "version": "1.0.1",
+  "name": "fb-dash",
+  "version": "1.0.3",
   "description": "A thin wrapper around lodash that allows its functions to be invoked as virtual methods using the proposed function bind syntax",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FullR/fodash"
+    "url": "https://github.com/FullR/fb-dash"
   },
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
-    "lodash": "*"
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "chai": "^3.4.1",
